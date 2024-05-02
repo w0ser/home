@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="./logo.vector.svg" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="location.href='index.html';">
+            <img src="\sources\logo.vector.svg" />
+        </div>
+        <nav>
+            <ul>
+                <li id="about" onclick="location.href='index.html';">About us</li>
+                <li id="catalog" onclick="location.href='catalog.html';">Catalog</li>
+                <li id="contacts" onclick="location.href='contacts.html';">Contacts</li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-shopping-cart" id="cart-icon" onclick="location.href='cart.html';"><img src="\sources\Shopping--cart.svg"/></i>
+            <i class="fa fa-user" id="profile-icon" onclick="location.href='authorization.html';"><img src="\sources\User--avatar.svg"/></i>
+        </div>
+    </header>
+    <main>
+           
+        <div class="product-container">
+            <img class="imgProduct" src="\sources\chair1.png">
+            <div class="product-info">
+                <h1 id="title">Elegance</h1>
+                <p class="main-text">$250</p>
+                <div class="content">
+                    <p class="text">Immerse yourself in the world of exquisite comfort with our designer chair "Elegance". Its streamlined lines and soft upholstery create a feeling of luxury and sophistication that will complement any interior</p>
+                    <p class="text">Made of high-quality materials, the Elegance chair is characterized by strength and durability. Its sturdy frame provides reliable support, and the padded seat and backrest guarantee unsurpassed comfort even during prolonged sitting</p>
+                    <p class="text">Due to its versatile design, the Elegance chair is ideal for both home and office spaces. It will be a stylish addition to a dining table, living room or work area</p>
+                    <p class="text">Let the Elegance chair become the centerpiece of your space and enjoy a unique combination of style and comfort</p>
+                </div>
+                <button type="submit" id="button">add to cart<img src="\sources\plus.svg" /></button>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="chairsHeader">
+                <h1 id="title">you might also like</h1>
+                <button type="submit" id="button" onclick="location.href='catalog.html';">view all<img src="\sources\arrow.svg" /></button>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="\sources\chair4.png">
+                    <div class='card-content'>
+                        <h2>grace</h2>
+                        <p class="card-text">$250</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="\sources\chair2.png">
+                    <div class='card-content'>
+                        <h2>Ergonomics</h2>
+                        <p class="card-text">$270</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="\sources\chair3.png">
+                    <div class='card-content'>
+                        <h2>Modernity</h2>
+                        <p class="card-text">$230</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block">
+            <h1 id="title">how does it work?</h1>
+            <div class="howItWork-container">
+                <div class="wideSection">
+                    <h2>Discovery</h2>
+                    <p class="wideSection-text">As with any service provided by Sketch Studios, our first and most essential step in workplace furnishing is information gathering. We learn about your business needs in terms of furniture, getting an idea of your team profile and what you want to achieve. We incorporate considerations like inclusivity, neurodiversity, flexible working, technology integration and company culture here</p>
+                </div>
+                <div class="smallSection">
+                    <h2>Space Analysis</h2>
+                    <p class="smallSection-text">Your furnishings need to align with the nature of your space. How is natural light distributed? How does sound carry? What user experience and journey are we designing for? And where is privacy important? All these and more logistical considerations are made to furnish the space effectively</p>
+                </div>
+                <div class="smallSection">
+                    <h2>Ideation</h2>
+                    <p class="smallSection-text">Our talented design team creates your unique workplace plan to invigorate your space with new and improved furniture. A dynamic interplay of teams and key considerations helps us produce a well-rounded result, for example, incorporating sustainability aspirations, budget parameters, style guidance, and technological aspects</p>
+                </div>
+                <div class="wideSection">
+                    <h2>Proposal</h2>
+                    <p class="wideSection-text">With a robust plan in place that meets our shared objectives, we pitch our proposed furnishing ideas to you. We use cutting-edge technology to demonstrate what your workplace furniture transformation will look like. We draw together details on costs, timescales for completion, and important details about where your furniture comes from and how it’ll impact your business</p>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p class='footer-text'>info@home.co</p>
+                <p class='footer-text'>+52 (1)4 4415 5455</p>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li id="about" onclick="location.href='index.html';">About us</li>
+                    <li id="catalog" onclick="location.href='catalog.html';">Catalog</li>
+                    <li id="contacts" onclick="location.href='contacts.html';">Contacts</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="./logo.vector.svg" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="location.href='index.html';">
+            <img src="\sources\logo.vector.svg" />
+        </div>
+        <nav>
+            <ul>
+                <li id="about" onclick="location.href='index.html';">About us</li>
+                <li id="catalog" onclick="location.href='catalog.html';">Catalog</li>
+                <li id="contacts" onclick="location.href='contacts.html';">Contacts</li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-shopping-cart" id="cart-icon" onclick="location.href='cart.html';"><img src="\sources\Shopping--cart.svg"/></i>
+            <i class="fa fa-user" id="profile-icon" onclick="location.href='authorization.html';"><img src="\sources\User--avatar.svg"/></i>
+        </div>
+    </header>
+    <main>
+        <div class="Registration">
+            <h1 id="title">Registration</h1>
+            <form id="registration-form">
+                <input type="text" id="name" placeholder="Name" required />
+                <input type="text" id="surname" placeholder="Surname" required />
+                <input type="email" id="email" placeholder="E-mail" required />
+                <input type="password" id="password" placeholder="Password" required />
+                <input type="password" id="confirm-password" placeholder="Confirm password" required />
+                <button type="submit" id="button">Registration <img src="\sources\arrow.svg" /></button>
+            </form>
+            <div id="already-have-account">
+                Already have an account?
+                <a href="authorization.html" id="sign-in-link">Sign in</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p class='footer-text'>info@home.co</p>
+                <p class='footer-text'>+52 (1)4 4415 5455</p>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li id="about" onclick="location.href='index.html';">About us</li>
+                    <li id="catalog" onclick="location.href='catalog.html';">Catalog</li>
+                    <li id="contacts" onclick="location.href='contacts.html';">Contacts</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
