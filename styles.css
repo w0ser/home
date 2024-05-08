@@ -11,8 +11,7 @@
   font-family: "Humane";
   font-style: normal;
   font-weight: 400;
-  src: local("Humane"),
-    url(https://fonts.gstatic.com/s/humane/v11/Qw32Y6q0-JbJjgfkHr0xvQ.ttf)
+  src: url('./sources.Humane.ttf');
       format("truetype");
 }
 
